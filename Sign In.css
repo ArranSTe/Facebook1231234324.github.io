@@ -72,6 +72,18 @@ input[type=text]:focus {
     font-weight: 700;
 }
 
+        @media (min-width: 768px) {
+            .text {
+                text-align: left;
+                margin-left: 10%;
+            }
+
+            .box {
+                float: right;
+                margin-right: 10%;
+            }
+        }
+
 .box a {
     text-decoration: none;
     color: #1877F2;
